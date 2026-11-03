@@ -636,7 +636,7 @@ _수업 자료 · C# 09-3 여러가지 데이터 형식_
 | `XML` | <태그>로 감싸기 · 포함 관계 표현 |
 | `JSON` | {객체} [리스트] key:value · 통신 표준, 가벼움 |
 
-- 직렬화: 객체 → JSON 문자열 / 역직렬화(Deserialization): JSON → 객체
+- 직렬화(Serialization): 객체 → JSON 문자열 / 역직렬화(Deserialization): JSON → 객체
 - C#은 `System.Text.Json`의 `JsonSerializer`를 써요.
 - 직렬화가 안 되는 것: `static` 멤버, `private` 멤버, 서로를 계속 가리키는 순환 참조(Circular Reference)
 - 옵션을 주면 JSON 표준처럼 소문자로 시작하는 이름(카멜케이스 camelCase)으로 바꿀 수 있어요.
