@@ -21,7 +21,7 @@ description: 수업에서 배운 자바·C# 원칙(캡슐화, SOLID, DataSource�
 
 ### 1-1. 중괄호와 이름
 
-- **K&R 스타일**: 여는 중괄호 `{`는 같은 줄 끝에 쓴다(`if (x) {`). `else`, `catch`, `finally`는 닫는 중괄호와 같은 줄에 이어 쓴다(`} else {`). C#, JAVA, C++에 적용 그 외 **Allman스타일** 적용하여 보기편하도록 작성하기 
+- **K&R 스타일**: 여는 중괄호 `{`는 같은 줄 끝에 쓴다(`if (x) {`). `else`, `catch`, `finally`는 닫는 중괄호와 같은 줄에 이어 쓴다(`} else {`). C#, JAVA, C++에 적용 그 외 js, json, html **Airbnb + Prettier스타일** 통일하기 
 - 클래스·인터페이스·enum 이름은 명사, 첫 글자 대문자(PascalCase).
 - 인터페이스는 앞에 `I`를 붙이고(C#) "~할 수 있는" 느낌으로 짓는다.
 - 자바 필드·메소드는 camelCase. C#은 메서드·프로퍼티는 PascalCase, private 필드는 `_camelCase`.
